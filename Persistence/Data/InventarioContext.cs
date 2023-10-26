@@ -15,6 +15,27 @@ namespace Persistence.Data
         public DbSet<User> Users { get; set; }
         public DbSet<UserRol> UserRols { get; set; }
 
+        public DbSet<Ciudad> Ciudades { get; set; }
+        public DbSet<ContactoPersona> ContactoPersonas { get; set; }
+        public DbSet<Departamento> Departamentos { get; set; }
+        public DbSet<DetalleMovimientoInventario> DetalleMovimientos { get; set; }
+        public DbSet<Factura> Facturas { get; set; }
+        public DbSet<FormaPago> FormaPagos { get; set; }
+        public DbSet<Inventario> Inventarios { get; set; }
+        public DbSet<Marca> Marcas { get; set; }
+        public DbSet<MovimientoInventario> MovimientoInventarios { get; set; }
+        public DbSet<Pais> Paises { get; set; }
+        public DbSet<Persona>  Personas{ get; set; }
+        public DbSet<Presentacion> Presentaciones { get; set; }
+        public DbSet<Producto> Productos { get; set; }
+        public DbSet<RolPersona> RolPersonas { get; set; }
+        public DbSet<TipoContacto> TipoContactos { get; set; }
+        public DbSet<TipoDocumento> TipoDocumentos { get; set; }
+        public DbSet<TipoPersona> TipoPersonas { get; set; }
+        public DbSet<UbicacionPersona> UbicacionPersonas { get; set; }
+
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
